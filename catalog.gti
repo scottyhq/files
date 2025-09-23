@@ -1,0 +1,13 @@
+<GDALTileIndexDataset>
+    <!-- Minimal metadata for GDAL to avoid reading a first .tif -->
+    <IndexDataset>catalogv2.parquet</IndexDataset>
+    <BandCount>1</BandCount>
+    <DataType>Float32</DataType>
+    <SRS>EPSG:4326</SRS>
+    <Resampling>Bilinear</Resampling>
+    <NoData>-999999</NoData>
+    <!-- approximately, 1m spacing in degrees for CONUS -->
+    <ResX>0.000009</ResX>
+    <ResY>0.000009</ResY>
+    <LocationField>assets.elevation.href</LocationField>
+</GDALTileIndexDataset>
